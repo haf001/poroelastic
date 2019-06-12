@@ -34,8 +34,6 @@ For the Python codes listed above see: https://github.com/haf001/multi-compartme
 
 Replacing the original problem.py file with this modified version and running the demo_thesis.py file with the demo_thesis.cfg file will provide numerical solutions presented on the master thesis report.
 
-To run the poro-elastic Python code, locate the demo_thesis.py file on the docker container using the ubuntu terminal and type: python3 demo_thesis.py --cfg ../data/demo_thesis.cfg
-
-Hit enter.
+To run the poro-elastic Python code, locate the directory for demo_thesis.py file while on the docker container using the ubuntu terminal and type: python3 demo_thesis.py --cfg ../data/demo_thesis.cfg
 
 Visualizing the numerical solution on Paraview will produce the results seen in the thesis report.
