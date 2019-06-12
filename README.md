@@ -26,15 +26,16 @@ To view the output Paraview 5.x is required.
 # multi-compartment_poroelastic
 The original poro-elastic python codes only functioned for single compartment scenarios where N = 1.
 
-Some modifications have been made to the problem.py file to enable solving for multi-compartment scenarios. The updated problem.py file is uploaded.
+Some modifications have been made to the problem.py file to enable solving for multi-compartment scenarios. The updated problem.py file is uploaded here: https://github.com/haf001/multi-compartment_poroelastic
 
 A demo_thesis.py file is uploaded to enable solving multi-compartment problems as well as a demo_thesis.cfg file.
 
-For the Python codes listed see: https://github.com/haf001/multi-compartment_poroelastic 
+For the Python codes listed above see: https://github.com/haf001/multi-compartment_poroelastic 
 
 Replacing the original problem.py file with this modified version and running the demo_thesis.py file with the demo_thesis.cfg file will provide numerical solutions presented on the master thesis report.
 
 To run on the Python code, locate the demo_thesis.py file on the docker container using the ubuntu terminal and type: python3 demo_thesis.py --cfg ../data/demo_thesis.cfg
 
-Visualizing the numerical solution on Paraview will produce the results seen in the thesis report.
+Hit enter.
 
+Visualizing the numerical solution on Paraview will produce the results seen in the thesis report.
