@@ -28,8 +28,13 @@ The original poro-elastic python codes only functioned for single compartment sc
 
 Some modifications have been made to the problem.py file to enable solving for multi-compartment scenarios. The updated problem.py file is uploaded.
 
-A demo_thesis.py file is uploaded to enable solving multi-compartment problems.
+A demo_thesis.py file is uploaded to enable solving multi-compartment problems as well as a demo_thesis.cfg file.
 
-A demo_thesis.cfg file is also uploaded
+For the Python codes listed see: https://github.com/haf001/multi-compartment_poroelastic 
 
 Replacing the original problem.py file with this modified version and running the demo_thesis.py file with the demo_thesis.cfg file will provide numerical solutions presented on the master thesis report.
+
+To run on the Python code, locate the demo_thesis.py file on the docker container using the ubuntu terminal and type: python3 demo_thesis.py --cfg ../data/demo_thesis.cfg
+
+Visualizing the numerical solution on Paraview will produce the results seen in the thesis report.
+
